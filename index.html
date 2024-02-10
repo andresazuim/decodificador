@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <main class="container-main-body">
+        <header class="boas-vindas">
+            <p class="texto-bem-vindo">Bem vindo!!!</p>
+            <p class="texto-de-inicio">Aqui você pode digitar a mensagem que quer Criptografar</p>
+        </header>
+        <section class="input-main">
+            <div class="input">
+                <div id="input-container" >
+                    <textarea id="input-text" class="input-text" placeholder="Digite seu texto aqui..." ></textarea>
+
+                </div>
+                <div id="output-container" >
+                    <textarea id="output-text" class="input-text" placeholder="Nenhuma mensagem encontrada..." ></textarea>
+                </div>
+            </div>
+
+        </section>
+
+        <div id="botao">
+            <button id="botao-criptografar" onclick="mudarTextoCriptografar()" class="botao-cip">Criptografar</button>
+            <button id="botao-descriptografar" onclick="mudarTextoDescriptografar()" class="botao-cip">Descriptografar</button>
+            <button id="botao-copiar" onclick="copiarTextoCriptografado()" class="botao-cip">copiar</button>
+
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p>Desenvolvido por Andresa Zuim</p>
+    </footer>
+    
+    <video id="c" src="img\vecteezy_onda-de-particula-azul_15131635.mp4" autoplay loop alt="particula de onda azul "> 
+    <script src="app.js"></script>
+        
+        
+</body>
+
+</html>
