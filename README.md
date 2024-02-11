@@ -2,6 +2,8 @@
 
 Este projeto é um decodificador de texto simples que permite criptografar e descriptografar mensagens. Foi desenvolvido como parte do desafio da One.
 
+Para acessar o projeto, [clique aqui](https://andresazuim.github.io/decodificador/).
+
 ## Funcionalidades 🚀
 
 - **Criptografia**: Insira o texto no campo designado e clique no botão "Criptografar" para ver o texto criptografado no campo ao lado. Um botão "Copiar" estará disponível para facilitar a cópia da mensagem criptografada.
@@ -22,7 +24,7 @@ Certifique-se de ter um navegador web moderno instalado para uma melhor experiê
 
 1. Clone o repositório em sua máquina local.
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/andresazuim/decodificador.git)
 
 ## 🤝 Conecte-se
 Estou sempre aberto a novas oportunidades de aprendizado, colaboração e networking. Sinta-se à vontade para entrar em contato comigo para discutir ideias, compartilhar experiências ou colaborar em projetos interessantes!
